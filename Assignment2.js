@@ -4,6 +4,7 @@ function addvalues(){
     if(a=='' || b=='')
     {
         window.alert("Enter the Integers to Add");
+        document.getElementById("value1").focus();
     }
     else{
         x=parseInt(a);
